@@ -6,6 +6,15 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+
+<div class="home-container">
+	<h1>Hello!</h1>
+	<p>I am a student of computer science Student.</p>
+	<p>The posts will be primarily about whatever I am doing at the moment.</p>
+	<p>Feel free to email me using this <a href="mailto:geordanipinales@gmail.com">link</a></p>
+
+</div>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>

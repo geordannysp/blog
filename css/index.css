@@ -30,8 +30,8 @@
 		--text-color-link: #1493fb;
 		--text-color-link-active: #6969f7;
 		--text-color-link-visited: #a6a6f8;
-
-		--background-color: #15202b;
+		--background-color: #1c1919;
+		
 	}
 }
 
@@ -125,6 +125,7 @@ main :first-child {
 
 main {
    word-wrap: break-word;
+   min-height: 80dvh;
 }
 
 .post-container {
@@ -308,3 +309,7 @@ header {
 	margin-right: 1em;
 }
 
+/* home page container*/
+.home-container {
+	max-width: 75%;
+}	

@@ -1,10 +1,9 @@
 ---
-title: My Experience with Math
-description: a little of my experience with math
-date: 2026-11-23
-tags:  ["personal", "math"]
+title: This is my second post with a much longer title.
+description: This is a post on My Blog about leveraging agile frameworks.
+date: 2018-07-04
+tags: number 2
 ---
-
 
 
 So,
